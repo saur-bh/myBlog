@@ -1,5 +1,8 @@
 
 <%- include("partials/header") %>
 <h1>Home</h1>
+
 <p><%= startingConent %> </p>
+<%if(posts.length>0){console.log(posts[0].title);};%>
+
 <%- include("partials/footer") %>
